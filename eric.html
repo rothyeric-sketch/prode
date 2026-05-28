@@ -8,6 +8,16 @@
  <input id="inputEquipo" placeholder="Escribí un equipo..." /> <!--input para ingresar texto tiene un ai llamado input equipo-->
   <button onclick="mostrar()">Mostrar</button> <!-- boton  para hacer click cuando el usuario hace click en el boton javascript 
   llama a la funcion mostrar con el comando onclick-->
+
+<button onclick="festejar()">⚽ ¡GOOOL!</button> 
+<img id="gif-gol" src="goool.gif" width="320" style="display:none" />
+ 
+<script>
+ function festejar() { document.getElementById("gif-gol").style.display = "block" } 
+ </script>
+
+
+
    <p id="resultado"></p> <!--parrafo tiene el id o identificador llamado resultado-->
   <script> function mostrar() { //entramos dentro de una funcion con nombre mostrar
      //declaramos una variable llamada equipo a la izquierda del signo igual
